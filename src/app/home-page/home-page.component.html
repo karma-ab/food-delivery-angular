@@ -1,0 +1,25 @@
+<section class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <input class="searchBar" type="text" placeholder="Search city, restaurants..." [(ngModel)]="searchBy" (keyup)="checkSearch()">
+        </div>
+        <div class="col-md-12" *ngFor="let hotel of hotelsData | filter: searchBy">
+            <div class="outerBox" *ngIf="showResults">
+                <div class="row" >
+                    <div class="col-md-6">
+                        <p class="sectionTitle">Name of city</p>
+                        <p class="cityName">{{hotel?.city}}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="sectionTitle">Name of restaurants</p>
+                        <div class="hotels" *ngFor="let h of hotel.restaurants">
+                            <p  class="restaurantsName">{{h}}</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            
+        </div>
+    </div>
+</section>

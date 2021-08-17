@@ -1,0 +1,47 @@
+[{
+  "city" : "Mumbai",
+  "restaurants" : [
+    "Mumbai Darbar",
+    "Taj",
+    "Jinnys",
+    "New York Cafe",
+    "Gear Cafe"
+    ]
+},
+{
+   "city" : "Delhi",
+  "restaurants" : [
+    "Delhi Darbar",
+    "Taj",
+    "Indian Accent",
+    "Leela Palace",
+    "Orient Express"
+    ]
+},{
+   "city" : "Chandigarh",
+  "restaurants" : [
+    "Chandigarh Darbar",
+    "Chilli & Pepper",
+    "Sagar Ratna",
+    "Banjara Dhaba",
+    "Shangrila"
+    ]
+},{
+   "city" : "Kolkata",
+  "restaurants" : [
+    "Kolkata Darbar",
+    "Paris Cafe",
+    "Dum Pukht",
+    "Waterside Cafe",
+    "Tamara"
+    ]
+},{
+   "city" : "Chennai",
+  "restaurants" : [
+    "Chennai Darbar",
+    "Tokyo Cafe",
+    "Indian Table",
+    "Krishna Restaurant",
+    "Five Spice"
+    ]
+}]

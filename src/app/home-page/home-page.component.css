@@ -1,0 +1,39 @@
+.cityName{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cityName{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0 5px 0;
+}
+
+.restaurantsName{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.sectionTitle{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.outerBox{
+    margin: 15px 0;
+    box-shadow: 0px 0px 6px #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.width-100per{
+    width: 100%;
+}
+
+.searchBar{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding:5px 10px
+}

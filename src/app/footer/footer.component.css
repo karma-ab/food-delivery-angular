@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 20px;
+    background: #006838bf;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.poweredByText{
+    margin: 0;
+    text-align: center;
+    color:#F7F7F7;
+    font-size: 12px;
+}
